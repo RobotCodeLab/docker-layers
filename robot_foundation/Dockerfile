@@ -29,7 +29,7 @@ RUN echo 'alias python=python3 \
 
 WORKDIR /root
 RUN  git clone https://github.com/RobotCodeLab/docker-layers.git
-RUN docker build docker-layers/docker-rviz -t dkr-rviz2
+RUN docker build docker-layers/docker-rviz2 -t dkr-rviz2
 
 
 CMD ["bash"]
