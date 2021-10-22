@@ -1,5 +1,4 @@
-FROM ros:foxy
-ENV ROS_DISTRO foxy
+FROM scratch
 
 # INSTALL AN EASY-TO-USE EDITOR
 RUN apt-get update && apt-get install -y \
